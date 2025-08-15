@@ -33,7 +33,7 @@ export default defineConfig(() => {
   const repo = process.env.GITHUB_REPOSITORY?.split('/').pop()
   return {
     plugins: [react(), stripVersionSuffix()],
-    base: process.env.GITHUB_ACTIONS && repo ? `/${repo}/` : '/',
+    base: '/amherst-artisan-market-website/',
     server: { port: 5173, open: true },
     build: { outDir: 'dist' },
   }
