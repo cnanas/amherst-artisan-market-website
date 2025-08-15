@@ -1,5 +1,5 @@
 import { useState } from 'react';
-const marketLogo = import.meta.env.BASE_URL + 'logo.svg';
+const marketLogo = import.meta.env.BASE_URL + 'logo.png';
 
 interface HeaderProps {
   activeSection: string;

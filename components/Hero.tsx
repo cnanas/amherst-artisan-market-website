@@ -1,5 +1,5 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
-const marketLogo = import.meta.env.BASE_URL + 'logo.svg';
+const marketLogo = import.meta.env.BASE_URL + 'logo.png';
 
 interface HeroProps {
   onNavigate?: (section: string) => void;
